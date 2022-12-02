@@ -1,0 +1,56 @@
+a[href="#about"],[href="#skills"],[href="#contacts"] 
+{ color: orange;
+      margin: 0 15px; /* Убираем отступы */
+      /* padding: 1; Поля вокруг текста */
+      font-family: "Open+Sans:ital";
+} 
+nav {
+   text-align: center;
+   padding: 15px;         
+}
+h1 {
+   font-family: "Open+Sans:ital";
+   color: rgba(18, 2, 41, 0.377);
+   
+}
+
+.subtitle {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      border-left: 10px solid rgb(2, 73, 29);
+      padding-left: 10px;
+      color: rgb(63, 23, 23);
+      margin-top: 30px;
+}
+ 
+.link {
+  color: orange;
+}
+.footer {
+  border-top: 1px solid gray;
+  padding: 20px;
+  text-align: center;
+}
+main {
+  margin: 0 auto;
+  width: 1200px;
+  font-family: "Open+Sans:ital";
+  flex-grow: 1;
+  display: flex;
+  padding-top: 50px;
+}
+
+.wrapper {
+  flex-grow: 1;
+  padding-left: 50px;
+}
+
+.contacts-item {
+  display: flex;
+  align-items: center;
+}
+.contacts {
+  margin-right: 6px;
+  margin-left: 10px;
+  margin-top: 10px;
+
+}
